@@ -1024,7 +1024,7 @@ Next we define the `Run` method for the builder.
                     cr.Machine <- sm
                     cr :> Coroutine))
         else 
-            failwith "dynamic implementation nyi"
+            failwith "dynamic implementation NYI"
 ```
 Finally, we add a dynamic implementation for the coroutine, in cases where state machine compilation can't be used:
 ```fsharp
